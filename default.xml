@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="origin"
+            fetch="https://github.com/spacemit-robotics/"
+            review="https://github.com/" />
+
+    <default remote="origin"
+             revision="main"
+             sync-j="4" />
+
+    <!-- Build, scripts & target -->
+    <project name="build" path="build" />
+    <project name="scripts" path="scripts" />
+    <project name="target" path="target" />
+
+    <!-- Multimedia -->
+    <project name="audio" path="components/multimedia/audio" />
+
+    <!-- Peripherals -->
+    <project name="peripherals-imu" path="components/peripherals/imu" />
+    <project name="peripherals-key" path="components/peripherals/key" />
+    <project name="peripherals-lidar" path="components/peripherals/lidar" />
+    <project name="peripherals-light-sensor" path="components/peripherals/light_sensor" />
+    <project name="peripherals-misc-io" path="components/peripherals/misc_io" />
+    <project name="peripherals-motor" path="components/peripherals/motor" />
+    <project name="peripherals-nfc" path="components/peripherals/nfc" />
+</manifest>
