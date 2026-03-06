@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="origin"
+            fetch="https://github.com/spacemit-robotics/"
+            review="https://github.com/" />
+
+    <default remote="origin"
+             revision="main"
+             sync-j="4" />
+
+    <!-- Build, scripts & target -->
+    <project name="build" path="build" />
+    <project name="scripts" path="scripts" />
+    <project name="target" path="target" />
+
+    <!-- Multimedia -->
+    <project name="audio" path="components/multimedia/audio" />
+
+    <!-- Model zoo -->
+    <project name="model_zoo-asr" path="components/model_zoo/asr" />
+    <project name="model_zoo-tts" path="components/model_zoo/tts" />
+    <project name="model_zoo-vad" path="components/model_zoo/vad" />
+    <project name="model_zoo-llm" path="components/model_zoo/llm" />
+    <project name="model_zoo-vision" path="components/model_zoo/vision" />
+
+    <!-- Smart voice -->
+    <project name="agent-tools-mcp" path="components/agent_tools/mcp" />
+
+    <!-- Application -->
+    <project name="omni_agent" path="application/native/omni_agent" />
+</manifest>
