@@ -5,18 +5,12 @@
 ## 前置要求
 
 - Ubuntu/Debian 系统
-- Git 2.9+
+- repo
 
 ```bash
-# 安装构建工具及 repo
-sudo apt install -y \
-    build-essential \
-    cmake \
-    pkg-config \
-    git \
-    repo \
-    curl \
-    wget
+
+sudo apt update
+sudo apt install repo
 ```
 
 ## 初始化工作空间
@@ -24,6 +18,9 @@ sudo apt install -y \
 ```bash
 mkdir spacemit_robot
 cd spacemit_robot
+
+# 中国地区如拉取较慢，可切换为国内镜像：
+export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
 repo init -u https://github.com/spacemit-robotics/manifest.git -b main -m default.xml
 repo sync -j4
 repo start robot-dev --all
@@ -40,8 +37,19 @@ repo init -u git@github.com:spacemit-robotics/manifest.git -b main -m default.xm
 ```bash
 spacemit_robot
 .
+├── application
+│   └── native
+│       └── omni_agent
 ├── build
 ├── components
+│   ├── agent_tools
+│   │   └── mcp
+│   ├── model_zoo
+│   │   ├── asr
+│   │   ├── llm
+│   │   ├── tts
+│   │   ├── vad
+│   │   └── vision
 │   ├── multimedia
 │   │   └── audio
 │   └── peripherals

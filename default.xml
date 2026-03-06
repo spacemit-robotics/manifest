@@ -16,6 +16,19 @@
     <!-- Multimedia -->
     <project name="audio" path="components/multimedia/audio" />
 
+    <!-- Model zoo -->
+    <project name="model_zoo-asr" path="components/model_zoo/asr" />
+    <project name="model_zoo-tts" path="components/model_zoo/tts" />
+    <project name="model_zoo-vad" path="components/model_zoo/vad" />
+    <project name="model_zoo-llm" path="components/model_zoo/llm" />
+    <project name="model_zoo-vision" path="components/model_zoo/vision" />
+
+    <!-- Smart voice -->
+    <project name="agent-tools-mcp" path="components/agent_tools/mcp" />
+
+    <!-- Application -->
+    <project name="omni_agent" path="application/native/omni_agent" />
+
     <!-- Peripherals -->
     <project name="peripherals-imu" path="components/peripherals/imu" />
     <project name="peripherals-key" path="components/peripherals/key" />
