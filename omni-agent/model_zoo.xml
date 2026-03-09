@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="origin"
-            fetch="https://github.com/spacemit-robotics/"
-            review="https://github.com/" />
+            fetch="../spacemit-robotics" />
 
     <default remote="origin"
              revision="main"

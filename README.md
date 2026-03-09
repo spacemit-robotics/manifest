@@ -15,22 +15,25 @@ sudo apt install repo
 
 ## 初始化工作空间
 
+当前这份 manifest 可同时用于 GitHub 与 Gitee，仓库来源由 `repo init -u` 指向的 manifest 地址决定。
+
 ```bash
 mkdir spacemit_robot
 cd spacemit_robot
 
-# 中国地区如拉取较慢，可切换为国内镜像：
-export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
+
+# 方式一：使用GitHub
 repo init -u https://github.com/spacemit-robotics/manifest.git -b main -m default.xml
+repo sync -j4
+repo start robot-dev --all
+
+# 方式二：使用Gitee：
+
+repo init -u https://gitee.com/spacemit-robotics/manifest.git -b main -m default.xml
 repo sync -j4
 repo start robot-dev --all
 ```
 
-使用 SSH 时：
-
-```bash
-repo init -u git@github.com:spacemit-robotics/manifest.git -b main -m default.xml
-```
 
 ## 项目结构
 
