@@ -11,6 +11,7 @@
     <project name="build" path="build" />
     <project name="scripts" path="scripts" />
     <project name="target" path="target" />
+    <project name="docs" path="docs" />
 
     <!-- Multimedia -->
     <project name="audio" path="components/multimedia/audio" />
