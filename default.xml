@@ -12,6 +12,12 @@
     <project name="scripts" path="scripts" />
     <project name="target" path="target" />
     <project name="docs" path="docs" />
+    <project name=".github" path=".github">
+        <copyfile src="profile/README_cn.md" dest="README.md" />
+    </project>
+
+    <!-- AI Agent integration -->
+    <project name="agent" path="agent" />
 
     <!-- Multimedia -->
     <project name="audio" path="components/multimedia/audio" />
