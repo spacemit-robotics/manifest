@@ -2,6 +2,8 @@
 <manifest>
     <remote name="origin"
             fetch="../spacemit-robotics" />
+    <remote name="model-zoo"
+            fetch="../spacemit-com" />
 
     <default remote="origin"
              revision="main"
@@ -23,11 +25,11 @@
     <project name="audio" path="components/multimedia/audio" />
 
     <!-- Model zoo -->
-    <project name="model-zoo-asr" path="components/model_zoo/asr" />
-    <project name="model-zoo-tts" path="components/model_zoo/tts" />
-    <project name="model-zoo-vad" path="components/model_zoo/vad" />
-    <project name="model-zoo-llm" path="components/model_zoo/llm" />
-    <project name="model-zoo-vision" path="components/model_zoo/vision" />
+    <project name="model-zoo-asr" path="components/model_zoo/asr" remote="model-zoo" />
+    <project name="model-zoo-tts" path="components/model_zoo/tts" remote="model-zoo" />
+    <project name="model-zoo-vad" path="components/model_zoo/vad" remote="model-zoo" />
+    <project name="model-zoo-llm" path="components/model_zoo/llm" remote="model-zoo" />
+    <project name="model-zoo-vision" path="components/model_zoo/vision" remote="model-zoo" />
 
     <!-- Smart voice -->
     <project name="agent-tools-mcp" path="components/agent_tools/mcp" />
