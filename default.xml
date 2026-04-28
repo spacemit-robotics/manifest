@@ -24,12 +24,27 @@
     <project name="model-zoo-vad" path="components/model_zoo/vad" remote="model-zoo" />
     <project name="model-zoo-llm" path="components/model_zoo/llm" remote="model-zoo" />
     <project name="model-zoo-vision" path="components/model_zoo/vision" remote="model-zoo" />
+    <project name="model_zoo_rl" path="components/model_zoo/rl" remote="model-zoo" />
+    <project name="model_zoo_voiceprint" path="components/model_zoo/voiceprint" remote="model-zoo" />
 
     <!-- Smart voice -->
     <project name="agent-tools-mcp" path="components/agent_tools/mcp" />
+    <project name="mlink_device" path="components/agent_tools/mlink_device" />
+    <project name="mlink_gateway" path="components/agent_tools/mlink_gateway" />
 
     <!-- Application -->
     <project name="omni-agent" path="application/native/omni_agent" />
+    <project name="humanoid_unitree_g1" path="application/native/humanoid_unitree_g1" />
+    <project name="humanoid_unitree_go1" path="application/native/humanoid_unitree_go1" />
+    <project name="humanoid_unitree_h1_2" path="application/native/humanoid_unitree_h1_2" />
+    <project name="humanoid_unitree_r1" path="application/native/humanoid_unitree_r1" />
+    <project name="humanoid_qinglong" path="application/native/humanoid_qinglong" />
+    <project name="humanoid_tiangong" path="application/native/humanoid_tiangong" />
+    <project name="humanoid_common" path="application/native/humanoid_common" />
+    <project name="reachy_mini" path="application/native/reachy_mini" />
+    <project name="rivision" path="application/native/rivision" />
+    <project name="lerobot_app" path="application/native/lerobot_app" />
+    <project name="linksee" path="application/ros2/linksee" />
 
     <!-- Peripherals -->
     <project name="peripherals-imu" path="components/peripherals/imu" />
@@ -39,4 +54,40 @@
     <project name="peripherals-misc-io" path="components/peripherals/misc_io" />
     <project name="peripherals-motor" path="components/peripherals/motor" />
     <project name="peripherals-nfc" path="components/peripherals/nfc" />
+    <project name="peripherals_5g" path="components/peripherals/5g" />
+    <project name="peripherals_led" path="components/peripherals/led" />
+    <project name="peripherals_wifi" path="components/peripherals/wifi" />
+    <project name="peripherals_pm" path="components/peripherals/pm" />
+
+    <!-- Control -->
+    <project name="control_base" path="components/control/base" />
+    <project name="control_gimbal" path="components/control/gimbal" />
+    <project name="control_grasp" path="components/control/grasp" />
+    <project name="control_manipulator" path="components/control/manipulator" />
+
+    <!-- Multimedia -->
+    <project name="mpp" path="components/multimedia/mpp" />
+    <project name="audio_process" path="components/multimedia/audio_process" />
+
+    <!-- System -->
+    <project name="system" path="components/system" />
+
+    <!-- ROS 2 -->
+    <project name="ros2_arm" path="middleware/ros2/control/arm" />
+    <project name="ros2_base" path="middleware/ros2/control/base" />
+    <project name="ros2_gimbal" path="middleware/ros2/control/gimbal" />
+    <project name="ros2_face_detection" path="middleware/ros2/perception/face_detection" />
+    <project name="ros2_humman_detetion" path="middleware/ros2/perception/human_detection" />
+    <project name="ros2_object_detection" path="middleware/ros2/perception/object_detection" />
+    <project name="ros2_person_detection" path="middleware/ros2/perception/person_detection" />
+    <project name="ros2_object_tracking" path="middleware/ros2/perception/object_tracking" />
+    <project name="ros2_person_follow" path="middleware/ros2/perception/person_follow" />
+    <project name="ros2_yolo_general" path="middleware/ros2/perception/yolo_general" />
+    <project name="ros2_yolo_world" path="middleware/ros2/perception/yolo_world" />
+    <project name="ros2_moveit2" path="middleware/ros2/planning/moveit2" />
+    <project name="ros2_nav2" path="middleware/ros2/planning/nav2" />
+    <project name="ros2_cartographer_run" path="middleware/ros2/slam/cartographer_run" />
+    <project name="ros2_rtabmap_run" path="middleware/ros2/slam/rtabmap_run" />
+    <project name="ros2_slam_toolbox_run" path="middleware/ros2/slam/slam_toolbox_run" />
+    <project name="ros2_visualization" path="middleware/ros2/tools/visualization" />
 </manifest>
