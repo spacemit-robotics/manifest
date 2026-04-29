@@ -6,6 +6,9 @@
     <project name="ros2_person_detection" path="middleware/ros2/perception/person_detection" groups="default,ros2,ros2_perception" />
     <project name="ros2_object_tracking" path="middleware/ros2/perception/object_tracking" groups="default,ros2,ros2_perception" />
     <project name="ros2_person_follow" path="middleware/ros2/perception/person_follow" groups="default,ros2,ros2_perception" />
+    <project name="ros2_action_recognition" path="middleware/ros2/perception/action_recognition" groups="default,ros2,ros2_perception" />
+    <project name="ros2_body_pose" path="middleware/ros2/perception/body_pose" groups="default,ros2,ros2_perception" />
+    <project name="ros2_gesture_recognition" path="middleware/ros2/perception/gesture_recognition" groups="default,ros2,ros2_perception" />
     <project name="ros2_yolo_general" path="middleware/ros2/perception/yolo_general" groups="default,ros2,ros2_perception" />
     <project name="ros2_yolo_world" path="middleware/ros2/perception/yolo_world" groups="default,ros2,ros2_perception" />
 </manifest>
