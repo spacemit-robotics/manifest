@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="peripherals-imu" path="components/peripherals/imu" groups="default,peripherals" />
+    <project name="peripherals-key" path="components/peripherals/key" groups="default,peripherals" />
+    <project name="peripherals-lidar" path="components/peripherals/lidar" groups="default,peripherals" />
+    <project name="peripherals-light-sensor" path="components/peripherals/light_sensor" groups="default,peripherals" />
+    <project name="peripherals-misc-io" path="components/peripherals/misc_io" groups="default,peripherals" />
+    <project name="peripherals-motor" path="components/peripherals/motor" groups="default,peripherals" />
+    <project name="peripherals-nfc" path="components/peripherals/nfc" groups="default,peripherals" />
+    <project name="peripherals_5g" path="components/peripherals/5g" groups="default,peripherals" />
+    <project name="peripherals_led" path="components/peripherals/led" groups="default,peripherals" />
+    <project name="peripherals_wifi" path="components/peripherals/wifi" groups="default,peripherals" />
+    <project name="peripherals_pm" path="components/peripherals/pm" groups="default,peripherals" />
+</manifest>

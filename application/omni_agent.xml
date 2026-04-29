@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="omni-agent" path="application/native/omni_agent" groups="default,omni_agent" />
+</manifest>

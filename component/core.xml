@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="build" path="build" groups="default,core" />
+    <project name="scripts" path="scripts" groups="default,core" />
+    <project name="target" path="target" groups="default,core" />
+    <project name="docs" path="docs" groups="default,doc" />
+    <project name="system" path="components/system" groups="default,core" />
+</manifest>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="control_base" path="components/control/base" groups="default,control" />
+    <project name="control_gimbal" path="components/control/gimbal" groups="default,control" />
+    <project name="control_grasp" path="components/control/grasp" groups="default,control" />
+    <project name="control_manipulator" path="components/control/manipulator" groups="default,control" />
+</manifest>

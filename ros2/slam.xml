@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="ros2_cartographer_run" path="middleware/ros2/slam/cartographer_run" groups="default,ros2,ros2_slam" />
+    <project name="ros2_rtabmap_run" path="middleware/ros2/slam/rtabmap_run" groups="default,ros2,ros2_slam" />
+    <project name="ros2_slam_toolbox_run" path="middleware/ros2/slam/slam_toolbox_run" groups="default,ros2,ros2_slam" />
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="audio" path="components/multimedia/audio" groups="default,multimedia" />
+    <project name="mpp" path="components/multimedia/mpp" groups="default,multimedia" />
+    <project name="audio_process" path="components/multimedia/audio_process" groups="default,multimedia" />
+</manifest>

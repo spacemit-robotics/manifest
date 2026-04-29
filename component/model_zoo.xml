@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="model-zoo-asr" path="components/model_zoo/asr" remote="model-zoo" groups="default,model_zoo,model_zoo_asr" />
+    <project name="model-zoo-tts" path="components/model_zoo/tts" remote="model-zoo" groups="default,model_zoo,model_zoo_tts" />
+    <project name="model-zoo-vad" path="components/model_zoo/vad" remote="model-zoo" groups="default,model_zoo,model_zoo_vad" />
+    <project name="model-zoo-llm" path="components/model_zoo/llm" remote="model-zoo" groups="default,model_zoo,model_zoo_llm" />
+    <project name="model-zoo-vision" path="components/model_zoo/vision" remote="model-zoo" groups="default,model_zoo,model_zoo_vision" />
+    <project name="model_zoo_rl" path="components/model_zoo/rl" remote="model-zoo" groups="default,model_zoo,model_zoo_rl" />
+    <project name="model_zoo_voiceprint" path="components/model_zoo/voiceprint" remote="model-zoo" groups="default,model_zoo,model_zoo_voiceprint" />
+</manifest>

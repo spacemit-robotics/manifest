@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="humanoid_common" path="application/native/humanoid_common" groups="default,humanoid,humanoid_common" />
+    <project name="humanoid_unitree_g1" path="application/native/humanoid_unitree_g1" groups="default,humanoid,humanoid_unitree_g1" />
+    <project name="humanoid_unitree_go1" path="application/native/humanoid_unitree_go1" groups="default,humanoid,humanoid_unitree_go1" />
+    <project name="humanoid_unitree_h1_2" path="application/native/humanoid_unitree_h1_2" groups="default,humanoid,humanoid_unitree_h1_2" />
+    <project name="humanoid_unitree_r1" path="application/native/humanoid_unitree_r1" groups="default,humanoid,humanoid_unitree_r1" />
+    <project name="humanoid_qinglong" path="application/native/humanoid_qinglong" groups="default,humanoid,humanoid_qinglong" />
+    <project name="humanoid_tiangong" path="application/native/humanoid_tiangong" groups="default,humanoid,humanoid_tiangong" />
+</manifest>
