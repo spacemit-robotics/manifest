@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="ros2_moveit2" path="middleware/ros2/planning/moveit2" groups="default,ros2,ros2_planning" />
+    <project name="ros2_nav2" path="middleware/ros2/planning/nav2" groups="default,ros2,ros2_planning" />
+</manifest>

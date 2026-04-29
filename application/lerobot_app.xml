@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="lerobot_app" path="application/native/lerobot_app" groups="default,app_lerobot" />
+</manifest>

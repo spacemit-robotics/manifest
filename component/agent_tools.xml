@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="agent-tools-mcp" path="components/agent_tools/mcp" groups="default,agent_tools" />
+    <project name="mlink_device" path="components/agent_tools/mlink_device" groups="default,agent_tools" />
+    <project name="mlink_gateway" path="components/agent_tools/mlink_gateway" groups="default,agent_tools" />
+</manifest>

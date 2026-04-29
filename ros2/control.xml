@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="ros2_arm" path="middleware/ros2/control/arm" groups="default,ros2,ros2_control" />
+    <project name="ros2_base" path="middleware/ros2/control/base" groups="default,ros2,ros2_control" />
+    <project name="ros2_gimbal" path="middleware/ros2/control/gimbal" groups="default,ros2,ros2_control" />
+</manifest>

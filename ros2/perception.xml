@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="ros2_face_detection" path="middleware/ros2/perception/face_detection" groups="default,ros2,ros2_perception" />
+    <project name="ros2_humman_detetion" path="middleware/ros2/perception/human_detection" groups="default,ros2,ros2_perception" />
+    <project name="ros2_object_detection" path="middleware/ros2/perception/object_detection" groups="default,ros2,ros2_perception" />
+    <project name="ros2_person_detection" path="middleware/ros2/perception/person_detection" groups="default,ros2,ros2_perception" />
+    <project name="ros2_object_tracking" path="middleware/ros2/perception/object_tracking" groups="default,ros2,ros2_perception" />
+    <project name="ros2_person_follow" path="middleware/ros2/perception/person_follow" groups="default,ros2,ros2_perception" />
+    <project name="ros2_yolo_general" path="middleware/ros2/perception/yolo_general" groups="default,ros2,ros2_perception" />
+    <project name="ros2_yolo_world" path="middleware/ros2/perception/yolo_world" groups="default,ros2,ros2_perception" />
+</manifest>

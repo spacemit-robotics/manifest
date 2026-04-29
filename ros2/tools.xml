@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="ros2_visualization" path="middleware/ros2/tools/visualization" groups="default,ros2,ros2_tools" />
+</manifest>
