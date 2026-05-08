@@ -4,5 +4,6 @@
     <project name="scripts" path="scripts" groups="default,core" />
     <project name="target" path="target" groups="default,core" />
     <project name="docs" path="docs" groups="default,doc" />
+    <project name="ci-test" path="ci-test" groups="default,core,ci-test" />
     <project name="system" path="components/system" groups="default,core" />
 </manifest>
