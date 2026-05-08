@@ -26,6 +26,7 @@
     <include name="application/linksee.xml" />
 
     <include name="ros2/control.xml" />
+    <include name="ros2/peripherals.xml" />
     <include name="ros2/perception.xml" />
     <include name="ros2/planning.xml" />
     <include name="ros2/slam.xml" />
