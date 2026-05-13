@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="lerobot" path="components/thirdparty/lerobot" clone-depth="1" groups="default,thirdparty" />
+</manifest>
