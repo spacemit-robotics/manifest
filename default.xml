@@ -26,6 +26,7 @@
     <include name="application/lerobot_app.xml" />
     <include name="application/linksee.xml" />
     <include name="application/ai-cubpet.xml" />
+    <include name="application/uav.xml" />
 
     <include name="ros2/control.xml" />
     <include name="ros2/peripherals.xml" />
