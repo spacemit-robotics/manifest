@@ -11,4 +11,6 @@
     <project name="ros2_gesture_recognition" path="middleware/ros2/perception/gesture_recognition" groups="default,ros2,ros2_perception" />
     <project name="ros2_yolo_general" path="middleware/ros2/perception/yolo_general" groups="default,ros2,ros2_perception" />
     <project name="ros2_yolo_world" path="middleware/ros2/perception/yolo_world" groups="default,ros2,ros2_perception" />
+    <project name="ros2_semantic_seg" path="middleware/ros2/perception/semantic_seg" groups="default,ros2,ros2_perception" />
+    <project name="ros2_instance_seg" path="middleware/ros2/perception/instance_seg" groups="default,ros2,ros2_perception" />
 </manifest>
