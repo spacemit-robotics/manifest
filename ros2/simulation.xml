@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="ros2_simulation" path="middleware/ros2/simulation" groups="default,ros2,ros2_simulation" />
+</manifest>
