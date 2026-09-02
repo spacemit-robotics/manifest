@@ -16,6 +16,7 @@
     <include name="component/agent_tools.xml" />
     <include name="component/peripherals.xml" />
     <include name="component/control.xml" />
+    <include name="component/perception.xml" />
     <include name="component/simulation.xml" />
     <include name="component/thirdparty.xml" />
 
