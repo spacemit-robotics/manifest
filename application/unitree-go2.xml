@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github" fetch="https://github.com/spacemit-robotics" />
-    <project name="unitree-go2" path="application/ros2/unitree-go2" remote="github" groups="default,unitree-go2" />
+    <project name="unitree-go2" path="application/ros2/unitree-go2" groups="default,unitree-go2" />
 </manifest>
