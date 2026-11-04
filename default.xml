@@ -26,6 +26,7 @@
     <include name="application/reachy_mini.xml" />
     <include name="application/rivision.xml" />
     <include name="application/lerobot_app.xml" />
+    <include name="application/dice_arena.xml" />
     <include name="application/linksee.xml" />
     <include name="application/unitree-go2.xml" />
     <include name="application/ai-cubpet.xml" />
