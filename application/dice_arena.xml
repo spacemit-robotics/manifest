@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="dice_arena" path="application/native/dice_arena" revision="feat/initial-sdk-integration" groups="default,dice_arena" />
+</manifest>

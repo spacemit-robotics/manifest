@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project name="lerobot" path="components/thirdparty/lerobot" clone-depth="1" groups="default,thirdparty" />
+    <project name="pyagxarm" path="components/thirdparty/pyagxarm" revision="feat/initial-sdk-integration" groups="default,thirdparty" />
 </manifest>
