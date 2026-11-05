@@ -4,6 +4,6 @@
     <project name="control_gimbal" path="components/control/gimbal" groups="default,control" />
     <project name="control_grasp" path="components/control/grasp" groups="default,control" />
     <project name="control_manipulator" path="components/control/manipulator" groups="default,control" />
-    <project name="manipulation" path="components/control/manipulation" revision="feat/initial-sdk-integration" groups="default,control" />
+    <project name="manipulation" path="components/control/manipulation" groups="default,control" />
     <project name="control_whole_body" path="components/control/whole_body" groups="default,control" />
 </manifest>
